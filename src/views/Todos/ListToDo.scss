@@ -1,0 +1,70 @@
+.list-todo-container {
+    font-size: 25px;
+    width: 500px;
+
+    button {
+        cursor: pointer;
+    }
+
+    .check-done {
+        text-decoration: line-through;
+    }
+
+    .add-todo {
+        padding: 10px;
+
+        input {
+            padding: 5px;
+            border-radius: 5px;
+            width: 300px;
+            font-size: 20px;
+            border: none;
+            outline: none;
+        }
+
+        .add {
+            margin: 0 10px;
+        }
+    }
+
+    .list-todo-content {
+        width: 500px;
+        margin: 10px auto;
+        text-align: left;
+        align-items: center;
+
+        .todo-child {
+            display: flex;
+            padding: 5px 0;
+            align-items: center;
+            border-bottom: 1px solid grey;
+
+            input {
+                padding: 5px;
+                border-radius: 5px;
+                width: 300px;
+                font-size: 20px;
+            }
+
+            &:first-child {
+                border-top: 1px solid grey;
+            }
+
+            // .todo-content {
+            //     text-decoration: line-through;
+            // }
+
+            .edit,
+            .checked,
+            .delete {
+                margin: 0 5px;
+                height: 30px;
+                background-color: transparent;
+                border: none;
+                outline: none;
+                color: white;
+                font-size: 16px;
+            }
+        }
+    }
+}

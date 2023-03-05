@@ -1,0 +1,17 @@
+.user-container {
+    .user-content {
+        margin: 10px;
+        text-align: left;
+
+        .user-name {
+            display: inline-block;
+            margin: 10px;
+            width: 300px;
+        }
+
+        .user-email {
+            display: inline-block;
+            margin: 10px;
+        }
+    }
+}
